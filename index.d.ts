@@ -277,6 +277,6 @@ interface Document { }
 
 declare var cheerio:CheerioAPI;
 
-declare module "cheerio" {
+declare module "react-native-cheerio" {
     export = cheerio;
 }
